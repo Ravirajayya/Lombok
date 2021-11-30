@@ -2,6 +2,11 @@ package com.projectLombok.lombok;
 
 import lombok.Data;
 
+/**
+ * @Data is a convenient shortcut annotation that bundles the features of 
+ * @ToString, @EqualsAndHashCode, @Getter / @Setter and @RequiredArgsConstructor together.
+ */
+
 @Data
 class UserLombokDataModel {
 
