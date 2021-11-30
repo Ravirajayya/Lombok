@@ -12,7 +12,6 @@ public class LombokApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LombokApplication.class, args);
-		
 		lombokTest();
 	}
 
@@ -30,5 +29,12 @@ public class LombokApplication {
         UserDataModel lombok_3 = new UserDataModel();
         lombok_3.execute();
         
+        System.out.println("======> Lombok: @Builder at class level <======");
+        lombokBuilderOnClass lombok_4 = new lombokBuilderOnClass();
+        lombok_4.execute();
+        
+        System.out.println("======> Lombok: @Builder at Constructor level <======");
+        lombokBuilderonConstructor lombok_5 = new lombokBuilderonConstructor();
+        lombok_5.execute();
 	}
 }
