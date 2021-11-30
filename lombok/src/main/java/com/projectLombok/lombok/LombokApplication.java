@@ -25,5 +25,10 @@ public class LombokApplication {
 		System.out.println("======> Lombok: @NoArgsConstructor, @AllArgsConstructor, @ToString <======");
 		UserModel lombok_2 = new UserModel();
 		lombok_2.execute();
+		
+		System.out.println("======> Lombok: @Data <======");
+        UserDataModel lombok_3 = new UserDataModel();
+        lombok_3.execute();
+        
 	}
 }
