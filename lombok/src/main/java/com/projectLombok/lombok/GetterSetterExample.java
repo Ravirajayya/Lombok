@@ -13,7 +13,7 @@ public class GetterSetterExample {
 
 class TestGetterSetter {
 	
-	public void demo() {
+	public void execute() {
 		GetterSetterExample lombokEx = new GetterSetterExample();
 		lombokEx.setUsername("Raviraj");
 		lombokEx.setPassword("P@assword");
